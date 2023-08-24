@@ -8,8 +8,8 @@ packages = [{include = "converter"},{include = "metricflow_parsing"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-metricflow = "^0.201.0"
-dbt-semantic-interfaces = "^0.2.0"
+metricflow = "0.200.0.dev4"
+dbt-semantic-interfaces = "^0.1.0.dev4"
 dbt-core = "^1.5.0"
 click = "^8.1.3"
 
